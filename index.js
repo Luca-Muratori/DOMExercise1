@@ -50,4 +50,6 @@ const insert_Row = function () {
         newCellRight.appendChild(newText2)
     })
 
-}
+}}
+
+
