@@ -53,3 +53,11 @@ const insert_Row = function () {
 }
 
 
+//exercise 6
+const removecolor = function () {
+    const select = document.querySelector("#colorSelect")
+    const btn = document.querySelector("div.ex6 > form > input[type=button]")
+    btn.addEventListener('click', function () {
+        select.remove(select.selectedIndex)
+    })
+}
